@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+    <link rel="stylesheet" href="./alertifyjs/css/alertify.min.css" />
+    <title>Javascript</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>JAVASCRIPT</h1>
+        <h2>Eva M. Sánchez López<h2>
+    </header>
+
+    
+    <div id="navegador">
+        <nav>
+            <ul>
+                <li><a href="#ejercicio1" class="ejercicio1">Ejercicio 1</a></li>
+                <li><a href="#ejercicio2" class="ejercicio2">Ejercicio 2</a></li>
+                <li><a href="#ejercicio3" class="ejercicio3">Ejercicio 3</a></li>
+                <li><a href="#ejercicio4" class="ejercicio4">Ejercicio 4</a></li>
+                <li><a href="#ejercicio5" class="ejercicio5">Ejercicio 5</a></li>
+                <li><a href="#ejercicio6" class="ejercicio6">Ejercicio 6</a></li>
+                <li><a href="#ejercicio7" class="ejercicio7">Ejercicio 7</a></li>
+                <li><a href="#ejercicio8" class="ejercicio8">Ejercicio 8</a></li>
+                <li><a href="#ejercicio9" class="ejercicio9">Ejercicio 9</a></li>
+                <li><a href="#ejercicio10" class="ejercicio10">Ejercicio 10</a></li>
+            </ul> 
+        </nav>
+    </div>
+
+
+    <section>
+        <div id="ej1" class="ejercicio">
+            <h3>Ejercicio 1</h3> <!-- ejercicio 17 -->
+        </div>
+
+ 
+        <div id="ej2" class="ejercicio">
+            <h3>Ejercicio 2</h3> <!-- ejercicio 18 -->
+        </div>
+          
+
+        <div id="ej3" class="ejercicio">
+            <h3>Ejercicio 3</h3> <!-- ejercicio 19 -->
+        </div>
+          
+
+        <div id="ej4" class="ejercicio">
+            <h3>Ejercicio 4</h3> <!-- ejercicio 20 -->
+            
+            <h1 class="uno" onclick="unclick()">JavaScript click</h1>
+            <h1 class="dos" ondblclick="dobleclick()">JavaScript doble click</h1>
+        </div>
+          
+
+        <div id="ej5" class="ejercicio">
+            <h3>Ejercicio 5</h3> <!-- ejercicio 21 -->
+            
+            <div class="cuadro rojo" onmouseover="cambiarColor(this)" onmouseout="quitarColor()"></div>
+            <div class="cuadro verde" onmouseover="cambiarColor(this)" onmouseout="quitarColor()"></div>
+            <div class="cuadro azul" onmouseover="cambiarColor(this)" onmouseout="quitarColor()"></div>
+            <div class="cuadro amarillo" onmouseover="cambiarColor(this)" onmouseout="quitarColor()"></div>
+            <div class="cuadro morado" onmouseover="cambiarColor(this)" onmouseout="quitarColor()"></div>
+        </div>
+          
+
+        <div id="ej6" class="ejercicio">
+            <h3>Ejercicio 6</h3> <!-- ejercicio 3 -->
+        </div>
+          
+
+        <div id="ej7" class="ejercicio">
+            <h3>Ejercicio 7</h3> <!-- ejercicio 6 -->
+        </div>
+
+
+        <div id="ej8" class="ejercicio">
+            <h3>Ejercicio 8</h3> <!-- ejercicio 8 -->
+        </div>
+
+
+        <div id="ej9" class="ejercicio">
+            <h3>Ejercicio 9</h3> <!-- ejercicio 10 -->
+            
+            <h3>Pasa el ratón por encima del país para ver su capital</h3>
+            <span pais="España" capital="Madrid" onmouseenter="evento(this)"><img src="./img/Espana.jpg"></span>
+            <span pais="Portugal" capital="Lisboa" onmouseenter="evento(this)"><img src="./img/Portugal.jpg"></span>
+            <span pais="Francia" capital="París" onmouseenter="evento(this)"><img src="./img/Francia.jpg"></span>
+            <span pais="Italia" capital="Roma" onmouseenter="evento(this)"><img src="./img/Italia.jpg"></span>
+        </div>
+
+
+        <div id="ej10" class="ejercicio">
+            <h3>Ejercicio 10</h3> <!-- ejercicio 2 -->
+        </div>
+
+
+
+        <!-- JQUERY descargado -->
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    
+        <script language="javascript" type="text/javascript" src="./js/index.js">
+        </script>    
+
+        <!-- ALERTIFY -->
+        <script src="./alertifyjs/alertify.js"></script>
+
+    </section>
+</body>

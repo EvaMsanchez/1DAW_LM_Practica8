@@ -1,0 +1,109 @@
+/* Estilos CSS */
+
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav 
+{
+    background-color: #f4f4f4;
+    padding: 40px; /* margen interior */
+    width: 170px;
+    height: 360px;
+    float: left;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li 
+{
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+
+nav a
+{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover
+{
+    color: #11E3A6
+}
+
+section
+{
+    padding: 20px;
+    margin-left: 230px;
+}
+
+.ejercicio
+{
+    border: 1px solid #ccc;
+    padding: 20px;
+  
+    height: 378px;
+}
+
+
+
+/* ejercicio 21 */
+.cuadro
+{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.rojo 
+{
+    background-color: red;
+}
+
+.verde
+{
+    background-color: green;
+}
+
+.azul 
+{
+    background-color: blue;
+}
+
+.amarillo 
+{
+    background-color: yellow;
+}
+
+.morado 
+{
+    background-color: purple;
+}
+
+
+/* ejercicio 10 */
+img
+{
+    width: 150px;
+    height: auto; 
+}
